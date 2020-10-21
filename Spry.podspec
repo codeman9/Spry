@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Spry'
-  s.version          = '3.2.3'
+  s.version          = '3.3.0'
   s.summary          = 'Spry is spying and stubbing framework for Apple\'s Swift language.'
 
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Rivukis/Spry.git', :tag => s.version.to_s }
 
   s.swift_version = '5.0'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'Source/*'
 end
